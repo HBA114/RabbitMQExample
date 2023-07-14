@@ -6,8 +6,8 @@
 
 ## Requirements
 
-- [RabbitMQ](https://www.rabbitmq.com/) installed in computer.
-- [.NET Core 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) installed in computer.
+- [RabbitMQ](https://www.rabbitmq.com/) installed on computer.
+- [.NET Core 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) installed on computer.
 
 ## How To Run
 

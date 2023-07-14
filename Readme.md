@@ -49,7 +49,7 @@ Message sent to queue!
 - Then run `RabbitMQExample.Receiver` project with following command.
 
 ```bash
-dotnet run --project RabbitMQExample.Sender
+dotnet run --project RabbitMQExample.Receiver
 ```
 
 - Output of this project should be:

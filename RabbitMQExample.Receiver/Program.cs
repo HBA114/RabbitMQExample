@@ -19,10 +19,9 @@ Console.WriteLine("Waiting for messages...");
 
 var consumer = new EventingBasicConsumer(model: channel);
 
-consumer.Received += (model, ea) =>
+consumer.Received += (model, eventArgs) =>
 {
-    var body = ea.Body.ToArray();
-    var message = Encoding.UTF8.GetString(body);
+    var message = Encoding.UTF8.GetString(eventArgs.Body.ToArray());
     Console.WriteLine($"Received Message: {message}");
 };
 
